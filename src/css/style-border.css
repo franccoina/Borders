@@ -6,21 +6,127 @@
 
 .img1{
     border: 10px rgb(20, 75, 155);
-    border-style: outset inset
+    border-style: outset inset;
+    border-top-width: 50px;
+    border-left-width: 50px;
+    border-radius: 10px;
 }
 
 .img2{
     border: 10px dashed rgb(170, 60, 60);
+    border-top-width: 50px;
+    border-right-width: 50px;
+    border-radius: 100px;
 }
 
 .img3{
     border: 10px dotted rgb(125, 10, 125);
+    border-bottom-width: 50px;
+    border-left-width: 50px;
+    border-radius: 1000px;
 }
 
 .img4{
     border: 10px ridge rgb(35, 95, 20);
+    border-bottom-width: 50px;
+    border-right-width: 50px;
 }
 
 .img5{
     border: 10px groove rgb(200, 50, 5);
+    border-top-width: 50px;
+    border-left-width: 50px;
 }
+
+p.dotted {
+    border-style: dotted;
+}
+
+p.dashed {
+    border-style: dashed;
+}
+
+p.solid {
+    border-style: solid;
+}
+
+p.double {
+    border-style: double;
+}
+
+p.groove {
+    border-style: groove;
+}
+
+p.ridge {
+    border-style: ridge;
+}
+
+p.inset {
+    border-style: inset;
+}
+
+p.outset {
+    border-style: outset;
+}
+
+p.none {
+    border-style: none;
+}
+
+p.hidden {
+    border-style: hidden;
+}
+
+p.mix {
+    border-style: dotted dashed solid double;
+}
+
+p.one {
+    border-style: solid;
+    border-width: 5px;
+}
+
+p.two {
+    border-style: solid;
+    border-width: medium;
+}
+
+p.three {
+    border-style: dotted;
+    border-width: 2px;
+}
+
+p.four {
+    border-style: dotted;
+    border-width: thick;
+}
+
+p.five {
+    border-style: double;
+    border-width: 15px;
+}
+
+p.six {
+    border-style: double;
+    border-width: thick;
+}
+
+p.uno {
+    border-style: solid;
+    border-width: 5px 20px;
+    /* 5px top and bottom, 20px on the sides */
+}
+
+p.dos {
+    border-style: solid;
+    border-width: 20px 5px;
+    /* 20px top and bottom, 5px on the sides */
+}
+
+p.tres {
+    border-style: solid;
+    border-width: 25px 10px 4px 35px;
+    /* 25px top, 10px right, 4px bottom and 35px left */
+}
+
